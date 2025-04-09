@@ -57,20 +57,20 @@
             </tr>
             <tr>
                 <td>Surname</td>
-                <td><input type="text" name="surname" placeholder="Surname"></td>
+                <td><input type="text" name="surname" placeholder="Last name"></td>
             </tr>
             <tr>
                 <td>Mobile Number</td>
-                <td><input type="number" name="mobile_number" placeholder="Enter phone number" id="n2"></td>
+                <td><input type="number" name="mobile_number" placeholder=" Phone number" id="n2"></td>
             </tr>
         
         <tr>
             <td>Password:</td>
-            <td><input type="password" id="n3" name="password" placeholder="enter password" id="n3"></td>
+            <td><input type="password" id="n3" name="password" placeholder=" Password" id="n3"></td>
         </tr>
         <tr>
             <td>Confirm Password:</td>
-            <td><input type="password" id="n4" name="confirm_password" placeholder="confirm-password" id="n4"></td>
+            <td><input type="password" id="n4" name="confirm_password" placeholder="Confirm-Password" id="n4"></td>
         </tr>
             <tr>
                 <td>Address</td>
@@ -78,11 +78,11 @@
             </tr>
             <tr>
                 <td>State</td>
-                <td><input type="text" name="state" placeholder="Enter state"></td>
+                <td><input type="text" name="state" placeholder="Enter State"></td>
             </tr>
             <tr>
                 <td>Area</td>
-                <td><input type="text" name="area" placeholder="Enter area"></td>
+                <td><input type="text" name="area" placeholder="Enter City"></td>
             </tr>
             <tr>
                 <td>Email ID</td>
@@ -93,7 +93,7 @@
                 <td><input type="text" name="state_region" placeholder="Enter state/region"></td>
             </tr>
             <tr class="save-button" id="save-button">
-                <td colspan="2"><input type="submit" value="Save Profile"></td>
+                <td colspan="2"><input type="Submit" value="Save Profile"></td>
             </tr>
             
         </table>
@@ -110,7 +110,7 @@
                 alert("All fields are mandatory");
                 return false;
             }
-            else if (a.length < 3) {
+            else if (a.length < 5) {
                 alert("Name is too short");
                 return false;
             }
@@ -123,7 +123,7 @@
                 return false;
             }
             else if (c !== d) {
-                alert("Password and confirm password should be the same");
+                alert("Password and Confirm-password should be the same");
                 return false;
             }
             else if (c.length < 6 || d.length < 6) {
